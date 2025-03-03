@@ -27,7 +27,7 @@
             </value>
             <next>
               <block type="variables_set" id="o:Aqj2@)TU=ORQ8[pibn">
-                <field name="VAR">stake awal</field>
+                <field name="VAR">Initial stake</field>
                 <value name="VALUE">
                   <block type="math_number" id="iUPmlY~4vmrwM^kp0Yl-">
                     <field name="NUM">1.5</field>
@@ -35,7 +35,7 @@
                 </value>
                 <next>
                   <block type="variables_set" id="[Goee2$u1`V2:UsCYNh;" collapsed="true">
-                    <field name="VAR">Analisa</field>
+                    <field name="VAR">Analysis</field>
                     <value name="VALUE">
                       <block type="lists_create_with" id="w8,t#=s=]br/u6l!i=/b">
                         <mutation items="149"></mutation>
@@ -788,7 +788,7 @@
                     </value>
                     <next>
                       <block type="variables_set" id="g`1v^_tBe,bhx{21dNM#" collapsed="true">
-                        <field name="VAR">Analisa 2</field>
+                        <field name="VAR">Analysis 2</field>
                         <value name="VALUE">
                           <block type="lists_create_with" id="#*Vt.^[+-55}6w)W+UEl">
                             <mutation items="149"></mutation>
@@ -1574,13 +1574,8 @@
         <field name="DURATIONTYPE_LIST">t</field>
         <field name="CURRENCY_LIST">USD</field>
         <value name="DURATION">
-          <block type="lists_getIndex" id="An2n(N{pPO`%wMl@D083">
-            <mutation statement="false" at="true"></mutation>
-            <field name="MODE">GET</field>
-            <field name="WHERE">FROM_START</field>
-            <value name="VALUE">
-              <block type="variables_get" id="~gal4,(xYWYDd6@aeHG%">
-                <field name="VAR">Analisa 2</field>
+          <block type="math_number" id="%OWWk)9~0L^xRwll.WwN">
+                <field name="NUM">0</field>
               </block>
             </value>
             <value name="AT">
@@ -1592,7 +1587,7 @@
         </value>
         <value name="AMOUNT">
           <block type="variables_get" id="wmq.hSL^_jM1@!DKzg@P">
-            <field name="VAR">stake awal</field>
+            <field name="VAR">Initial stake</field>
           </block>
         </value>
         <value name="PREDICTION">
@@ -1602,7 +1597,7 @@
             <field name="WHERE">FROM_START</field>
             <value name="VALUE">
               <block type="variables_get" id="i~q$~d^pW5A:)O#W^*R6">
-                <field name="VAR">Analisa</field>
+                <field name="VAR">Analysis</field>
               </block>
             </value>
             <value name="AT">
@@ -1626,7 +1621,7 @@
         </value>
         <statement name="DO0">
           <block type="variables_set" id="/Zn7[ZO*el~9hTD,pRZ6">
-            <field name="VAR">stake awal</field>
+            <field name="VAR">Initial stake</field>
             <value name="VALUE">
               <block type="variables_get" id="+A`%%flu?PcpGLC9W0};">
                 <field name="VAR">stake</field>
@@ -1701,7 +1696,7 @@
             </value>
             <next>
               <block type="math_change" id="Pn/9ZS8%VP}18``:d8fS">
-                <field name="VAR">stake awal</field>
+                <field name="VAR">Initial stake</field>
                 <value name="DELTA">
                   <shadow type="math_number" id="N=Vo^MVz~/^(xt7Ag@8E">
                     <field name="NUM">1</field>
@@ -1743,7 +1738,7 @@
                         <mutation items="2"></mutation>
                         <value name="ADD0">
                           <block type="text" id="U.hBn^L^c`:1{#`dT#Ka">
-                            <field name="TEXT">SABAR YA,, TETAP SEMANGAT : $</field>
+                            <field name="TEXT">Be patient, stay motivated : $</field>
                           </block>
                         </value>
                         <value name="ADD1">
@@ -1771,7 +1766,7 @@
                             <field name="NUM">0</field>
                           </shadow>
                           <block type="variables_get" id=",QApJ@]-86xD,^{Pn^ZN">
-                            <field name="VAR">Analisa 2</field>
+                            <field name="VAR">Analysis 2</field>
                           </block>
                         </value>
                       </block>
@@ -1811,7 +1806,7 @@
                     <mutation items="2"></mutation>
                     <value name="ADD0">
                       <block type="text" id="8u879FnfCx={qIH?dcQQ">
-                        <field name="TEXT">SELAMAT TARGET PROFIT TERCAPAI &gt;&gt; $</field>
+                        <field name="TEXT">CONGRATULATIONS, TARGET PROFIT ACHIEVED &gt;&gt; $</field>
                       </block>
                     </value>
                     <value name="ADD1">
